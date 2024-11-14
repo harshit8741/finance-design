@@ -1,8 +1,4 @@
 export default function DataTable({years, data, name}: any) {
-    // const data = ;
-
-    // const years = ;
-
     return (
         <div className="bg-[#0E1218]">
             <div className="text-xl font-bold">

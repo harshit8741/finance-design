@@ -1,5 +1,5 @@
 export default function Footer() {
-    return <div className="bg-[#0011ff57] rounded-t-3xl">
+    return <div className="bg-[#131314] rounded-t-3xl">
         <div className="flex flex-row justify-between px-10">
             <div className="flex flex-col gap-6 pt-6 text-white">
                 <div className="text-white text-5xl font-extrabold">

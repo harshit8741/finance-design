@@ -13,11 +13,11 @@ export default function SideBar() {
                 <Searchbar />
             </div>
             <div className="text-white text-xs mr-2 ml-2 mt-4">
-                <ul className="flex flex-col gap-6">
+                <ul className="flex flex-col gap-3">
                     <li className="flex item-center w-full">
                         <NavLink to="/home" className={({ isActive }) => isActive
-                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] w-full pl-2"
-                            : "flex flex-row items-center text-white rounded pl-2"
+                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] h-8 w-full pl-2"
+                            : "flex flex-row items-center text-white rounded pl-2 h-8"
                         }>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="gray" className="size-4 mr-2">
@@ -32,7 +32,7 @@ export default function SideBar() {
                     <li className="flex item-center w-full">
                         <NavLink to="/overview" className={({ isActive }) => isActive
                             ? "flex flex-row items-center text-white rounded bg-[#2741EE] h-8 w-full pl-2"
-                            : "flex flex-row items-center text-white rounded pl-2"
+                            : "flex flex-row items-center text-white rounded pl-2 h-8"
                         }>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="gray" className="size-4 mr-2">
@@ -48,8 +48,8 @@ export default function SideBar() {
                     </li>
                     <li className="flex item-center w-full">
                         <NavLink to="/market" className={({ isActive }) => isActive
-                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] w-full pl-2"
-                            : "flex flex-row items-center text-white rounded pl-2"
+                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] h-8 w-full pl-2"
+                            : "flex flex-row items-center text-white rounded pl-2 h-8"
                         }>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="gray" className="size-4 mr-2">
@@ -64,8 +64,8 @@ export default function SideBar() {
                     </li>
                     <li className="flex item-center w-full">
                         <NavLink to="/news" className={({ isActive }) => isActive
-                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] w-full pl-2"
-                            : "flex flex-row items-center text-white rounded pl-2"
+                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] h-8 w-full pl-2"
+                            : "flex flex-row items-center text-white rounded pl-2 h-8"
                         }>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="gray" className="size-4 mr-2">
@@ -79,8 +79,8 @@ export default function SideBar() {
                     </li>
                     <li className="flex item-center w-full">
                         <NavLink to="/notification" className={({ isActive }) => isActive
-                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] w-full pl-2"
-                            : "flex flex-row items-center text-white rounded pl-2"
+                            ? "flex flex-row items-center text-white rounded bg-[#2741EE] h-8 w-full pl-2"
+                            : "flex flex-row items-center text-white rounded pl-2 h-8"
                         }>
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="gray" className="size-4 mr-2">
@@ -100,7 +100,7 @@ export default function SideBar() {
         </div>
         <div>
             <div className="text-white text-xs mx-2 my-4">
-                <ul className="flex flex-col gap-6">
+                <ul className="flex flex-col gap-3">
                     <li className="flex item-center w-full">
                         <NavLink to="/help" className={({ isActive }) => isActive
                             ? "flex flex-row items-center text-white rounded bg-[#2741EE] w-full pl-2"

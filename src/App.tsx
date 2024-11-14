@@ -4,6 +4,7 @@ import Overview from "./pages/OverviewPage"
 import AuthPage from "./pages/AuthPage"
 import Market from "./pages/MarketPage"
 import News from "./pages/NewsPage"
+import NewsReade from "./pages/NewsReadePage"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/overview" element={<Overview />} />
         <Route path="/market" element={<Market />} />
         <Route path="/news" element={<News />} />
+        <Route path="/newsread" element={<NewsReade />} />
       </Routes>
     </BrowserRouter>
   </div>
