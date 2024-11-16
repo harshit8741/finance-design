@@ -15,7 +15,7 @@ export default function NewsPage() {
                     <img src="../src/assets/avtar.jpg" className="rounded-full" />
                 </div>
             </div>
-            <div className="flex flex-col px-32 gap-4">
+            <div className="flex flex-col px-32 gap-4 mb-10">
                 <News date={"Oct 31, 2024 01:35"} heading={"Mizuho Q2 profit jumps 62%, outlook raised as rate hikes boost margins"}
                     content={"Reliance New Energy (RNEL), a wholly-owned subsidiary of Reliance Industries, has acquired the remaining stake in sodium ion battery technology company Faradion from existing shareholders, making it a wholly-owned subsidiary, according to a stock exchange filing dated October 29"}
                     img={"../src/assets/news-img-1.jpg"} />
